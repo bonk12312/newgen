@@ -10,7 +10,7 @@ function App() {
   const [showIntro, setShowIntro] = useState(true);
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
-  const twitterUrl = "https://twitter.com/yourusername";
+  const twitterUrl = "https://x.com/newgen_thoughts";
 
   const handleNavigate = (direction: 'prev' | 'next') => {
     if (!selectedRoom) return;
